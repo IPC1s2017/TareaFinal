@@ -1,5 +1,3 @@
-//Ejercicio de BubbleSort
-
 public class EF2{
 	public static void main(String args[]){
 		int array [] = {2,3,8,109,13,4,18,10,23,18,50,11,13,2};
@@ -15,13 +13,21 @@ public class EF2{
 					array[j]=array[j-1];
 					array[j-1]= temp;
 				}
-				this.print(array);
+				//this.print(array);
 			}
 		}
 	}
 	public void print (int array []){
+		System.out.print("{");
 		for (int i=0; i<array.length; i++)
-		System.out.println(array[i]);
-		System.out.println("\n");
+		if (i<array.length){
+			System.out.print(array[i]+",");	
+		}
+		for (int i=13; i==13; i++)
+		if (i<=13){
+			System.out.print(array[i]+"}");	
+		}
+		
+		
 	}
 }
