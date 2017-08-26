@@ -22,11 +22,25 @@ public class EF2 {
     
     }
     public static void Mostrar(int vector[]){
-    for(int i=0;i<vector.length;i++){
-        System.out.print(+vector[i]+",");
+        System.out.print("{");
+    for(int i=0;i<14;i++){
+        
+        if(i<13){
+            System.out.print(vector[i]+",");
+        }
+        
+        
+        
     
     }
-        System.out.println(" ");
+    for(int i=13; i==13;i++){
+            if(i==13){
+                
+                System.out.println(vector[i]+"}");
+            
+            }
+        }
+    
     }
     
 }
