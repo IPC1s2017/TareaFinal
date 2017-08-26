@@ -6,10 +6,10 @@ public class EF1{
 	}	
 
 	public static int Factorial(int n){
-		if(){//Escribir condición de salida 
+		if(n==0){//Escribir condición de salida 
 			return 1;  
 		}else{//Escribir el retorno para la recursividad
-
+			return fac * (factorial(fac - 1));
 		}
 	}
 }
