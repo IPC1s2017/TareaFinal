@@ -77,3 +77,9 @@ D = (ai * (C - 11)) mod 26
 ```
 
 
+__Donde:__
+
+- __C__ es la posición de la letra en el alfabeto resultante cifrada
+- __D__ es la posición de la letra en el alfabeto resultante descifrada
+- __X__ es la posición de la letra en el alfabeto de la Entrante
+- __ai__ es inverso multiplicativo de 5 mod 26, ai = 21
