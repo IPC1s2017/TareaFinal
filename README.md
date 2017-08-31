@@ -53,3 +53,27 @@ __Salida__
 {2, 2, 3, 4, 8, 10, 11, 13, 13, 18, 18, 23, 50, 109}
 ```
 
+
+
+## Ejercicio 3
+
+En criptografía, el cifrado por sustitución es un método de cifrado por el que unidades de texto plano son sustituidas con texto cifrado siguiendo un sistema regular; las "unidades" pueden ser una sola letra (el caso más común), pares de letras, tríos de letras, mezclas de lo anterior, entre otros. El receptor descifra el texto realizando la sustitución inversa.
+
+Dada un entrada es necesario cifrar el mensaje por medio del cifrado afín. Para el ejercicio 3 deben crear un menú que permita cifrar mensajes, mostrar mensajes cifrados, mostrar mensjaes decifrados, los mensajes se deben de almacenar en un arreglo de máximo de 5 mensajes.  
+
+Fecha de entrega septiembre 2. 
+
+### Cifrado Afín
+
+
+ __Fórmula para cifrar__
+```
+C = (5X + 11 ) mod 26 + 1
+
+```
+__Fórumla para descifrar__
+```
+D = (ai * (C - 11)) mod 26
+```
+
+
