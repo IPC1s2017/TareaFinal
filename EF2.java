@@ -19,13 +19,14 @@ public class EF2{
 	}
 	public void print (int array []){
 		System.out.print("{");
-		for (int i=0; i<array.length; i++)
-		if (i<array.length){
-			System.out.print(array[i]+",");	
-		}
-		for (int i=13; i==13; i++)
-		if (i<=13){
-			System.out.print(array[i]+"}");	
+		for (int i=0; i<array.length; i++){
+			if (i<array.length){
+				System.out.print(array[i]+",");	
+			}
+			if (i==array.length-1){
+				System.out.print("}");	
+			}
+		
 		}
 		
 		
