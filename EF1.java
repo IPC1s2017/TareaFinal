@@ -1,15 +1,23 @@
-public class EF1{
-	
+﻿public class EF1{
+	import java.util.Scanner;
 	public static void main(String args[]){
-		int n = Integer.parseInt(args[0]);
-		System.out.println(Factorial(n));
-	}	
-
-	public static int Factorial(int n){
-		if(){//Escribir condición de salida 
-			return 1;  
-		}else{//Escribir el retorno para la recursividad
-
-		}
-	}
+		public static Scanner sc = new Scanner(System.in);
+   
+    public static void main(String[] args) {
+        int n = Integer.parseInt(args[0]);
+        System.out.println(Factorial(n));
+        Factorial(n);
+    }
+    public static int Factorial(int n){
+         int resp;
+         System.out.println("Ingrese un numero");
+         n = sc.nextInt();
+         if(n == 1){
+             return 1;
+         }else{
+             resp = n*Factorial(n-1);
+         }
+        return resp;
+         
+    }
 }
