@@ -1,9 +1,9 @@
 # Tarea Final
 
 ## Descripción
-La tarea final consiste en una serie de ejercicios que se dejarán periódicamente, cada ejercicio se relacionan con los temas de laboratorio vistos. Los ejercicios son diseñados para ser entregados en el menor tiempo posible 
+La tarea final consiste en una serie de ejercicios que se dejarán periódicamente, cada ejercicio se relacionan con los temas de laboratorio vistos. Los ejercicios son diseñados para ser entregados en el menor tiempo posible
 
-## Prerrequisitos 
+## Prerrequisitos
 
 - Los nombres de cada clase debe de ser EF<#>
 - Los únicos archivos que se deben de subir son los .java
@@ -18,31 +18,31 @@ La tarea final consiste en una serie de ejercicios que se dejarán periódicamen
 
 
 
-Deben de recordar que el nombre del archivo debe de ser el mismo que el nombre de la clase para el ejercicio 1. 
+Deben de recordar que el nombre del archivo debe de ser el mismo que el nombre de la clase para el ejercicio 1.
 
 ```java
 public class EF1{
-	código...	
+	código...
 }
 ```
 
 ## Ejercicio 1
-Deben de realizar por medio un algoritmo recursivo el Factorial de un número dado como entrada por un parámetro del método main.  Deben de entregar el sábado 26 de agosto antes de las 15:00 
+Deben de realizar por medio un algoritmo recursivo el Factorial de un número dado como entrada por un parámetro del método main.  Deben de entregar el sábado 26 de agosto antes de las 15:00
 
 ```java
 public class EF1{
 	public static void main(String args[]){
 		int n = Integer.parseInt(args[0]);
 		System.out.println(Factorial(n));
-	}	
+	}
 }
 ```
 
 
 ## Ejercicio 2
 
-Deben de realizar el algoritmo de ordenamiento de búrbuja 
-con el siguiente arreglo, deben de imprimir únicamente de salida el arreglo ordenado separado por comas entre llaves, deben de considerar que el último no lleva coma. Deben de entregar el sábado 26 de agosto antes de las 15:00 
+Deben de realizar el algoritmo de ordenamiento de búrbuja
+con el siguiente arreglo, deben de imprimir únicamente de salida el arreglo ordenado separado por comas entre llaves, deben de considerar que el último no lleva coma. Deben de entregar el sábado 26 de agosto antes de las 15:00
 
  __Entrada__
 ```
@@ -59,9 +59,9 @@ __Salida__
 
 En criptografía, el cifrado por sustitución es un método de cifrado por el que unidades de texto plano son sustituidas con texto cifrado siguiendo un sistema regular; las "unidades" pueden ser una sola letra (el caso más común), pares de letras, tríos de letras, mezclas de lo anterior, entre otros. El receptor descifra el texto realizando la sustitución inversa.
 
-Dada un entrada es necesario cifrar el mensaje por medio del cifrado afín. Para el ejercicio 3 deben crear un menú que permita cifrar mensajes, mostrar mensajes cifrados, mostrar mensjaes decifrados, los mensajes se deben de almacenar en un arreglo de máximo de 5 mensajes.  
+Dada un entrada es necesario cifrar el mensaje por medio del cifrado afín. Para el ejercicio 3 deben crear un menú que permita cifrar mensajes, mostrar mensajes cifrados, mostrar mensjaes decifrados, los mensajes se deben de almacenar en un arreglo de máximo de 5 mensajes.
 
-Fecha de entrega septiembre 2. 
+Fecha de entrega septiembre 2.
 
 ### Cifrado Afín
 
@@ -83,3 +83,31 @@ __Donde:__
 - __D__ es la posición de la letra en el alfabeto resultante descifrada
 - __X__ es la posición de la letra en el alfabeto de la Entrante
 - __ai__ es inverso multiplicativo de 5 mod 26, ai = 21
+
+
+## Ejercicio 4
+El ejercicio 4 consiste en la realización de una ventana con un JTextField donde se puede ingresar números separados por comas y en JLabel debe de mostrar el resultado de la suma al presionar un botón.
+
+Para la separación de la cadena existe el método de Split que recibe como parámetro la cadena con la cual se hará la división devuelve un arreglo.
+
+En el método getSuma deben de realizar las operaciones para colocar en el JLabel el resultado de la operación
+
+
+__Split__
+```java
+  String[] numeros = entrada.split(",");
+```
+
+Como recordatorio no deben de borrar el código de las clases que se les da como plantilla sino deben de escribir sobre ellas.
+
+Fecha de entrega septiembre 10.
+
+
+__Entrada__
+```
+212, 31, 50, 10, 23, 4, 1, 0, 25
+```
+__Salida__
+```
+356
+```
