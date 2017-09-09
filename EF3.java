@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
 public class EF3{
     String[] Cripted = new String[5];
@@ -145,4 +145,3 @@ public class EF3{
             return descifrado;
         }
     }
-}
