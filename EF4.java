@@ -70,6 +70,6 @@ public class EF4 extends JFrame {
     
     return suma+"";
        
-    }
+    } 
      
 }
