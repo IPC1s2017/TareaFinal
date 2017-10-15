@@ -111,3 +111,34 @@ __Salida__
 ```
 356
 ```
+
+
+## Ejercicio 5
+El ejercicio 5 consiste en la realización de completación del TAD (Tipo de dato abstracto) de diferentes Estructura de datos, y su llenado por medio la lectura de un archivo de entrada.
+
+Las estructuras de datos son:
+
+- Pila
+- Cola
+- Lista doble (InsertaralFrente)
+- Lista circular (InsertaralFinal)
+
+__Entrada__
+```
+Fibonacci.txt
+```
+__Salida__
+```
+Pila:
+89, 55, 34, 21, 13, 8, 5, 2, 1, 1, 0
+
+Cola:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89
+
+Lista Doble:
+89, 55, 34, 21, 13, 8, 5, 2, 1, 1, 0
+
+Lista Circular:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89
+
+```
