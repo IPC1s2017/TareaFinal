@@ -16,9 +16,9 @@ public class Cola{
 
   public int Desencolar(){
     int dato = primero.dato;
-    /*
-    resto del código
-    */
+
+   int dato = primero.dato;
+   primero=primero.siguiente; 
     return dato;
   }
 
