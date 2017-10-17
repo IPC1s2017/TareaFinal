@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4ed0a9edb429775789ddb045e0145f53c7ad414b
 import java.awt.event.ActionEvent;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -57,40 +53,4 @@ public class EF4 extends JFrame{
             return "<html>Escribe lo numeros que desees sumar y separalos por una coma. Ej: 10,-20,60,...</html>";
         }
     }
-<<<<<<< HEAD
 }
-=======
-import javax.swing.JFrame;
-import javax.swing.WindowConstants;
-
-public class EF4 extends JFrame{
-
-	public static void main(String args[]){
-					EF4 ventana = new EF4();
-          ventana.show();
-	}
-
-  public EF4(){
-    setSize(250, 300);
-    setTitle("Sumadora");
-    setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-    setResizable(false);
-
-  }
-
-  public String getSuma(String entrada){
-    String[] numeros = entrada.split(",");
-    int suma = 0;
-    //Realizar suma
-    for(String numero:numeros)
-    {
-
-    }
-    return suma+"";
-  }
-
-}
->>>>>>> master
-=======
-}
->>>>>>> 4ed0a9edb429775789ddb045e0145f53c7ad414b
