@@ -16,15 +16,13 @@ public class Cola{
 
   public int Desencolar(){
     int dato = primero.dato;
-    /*
-    resto del código
-    */
+    primero = primero.siguiente;
     return dato;
   }
 
   public void Imprimir(){
     while(primero!=null){
-      System.out.println(Desencolar());
+      System.out.print(Desencolar()+", ");
     }
   }
 

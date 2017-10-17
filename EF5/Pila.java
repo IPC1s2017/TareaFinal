@@ -19,7 +19,7 @@ public class Pila{
 
   public void Imprimir(){
     while(primero!=null){
-      System.out.println(Desapilar());
+      System.out.print(Desapilar()+", ");
     }
   }
 
