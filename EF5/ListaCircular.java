@@ -1,18 +1,19 @@
+      
 public class ListaCircular{
   public Nodo primero;
   public Nodo ultimo;
 
   public ListaCircular(int dato){
       primero = new Nodo(dato);
-      /*
-        completar el resto del código
-      */
+      primero.siguiente = primero;
+      ultimo = primero;
   }
 
   public void InsertarAlFinal(int dato){
-    /*
-      completar el resto del código
-    */
+    Nodo nuevo = new Nodo(dato);
+    ultimo.siguiente = nuevo;/*nuevo.siguiente = primero;*/
+    ultimo = nuevo;/*primero = nuevo;*/
+    ultimo.siguiente = primero;
   }
 
   public void Imprimir(){
@@ -20,6 +21,7 @@ public class ListaCircular{
       do {
         auxiliar.Imprimir();
         auxiliar = auxiliar.siguiente;
+        System.out.print(", ");
       } while (auxiliar!=primero);
   }
 

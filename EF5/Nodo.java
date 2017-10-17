@@ -6,9 +6,10 @@ public class Nodo{
 
   public Nodo(int dato){
     this.dato = dato;
+    
   }
 
   public void Imprimir(){
-    System.out.println(dato);
+    System.out.print(dato);
   }
 }
