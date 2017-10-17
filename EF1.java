@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-public class EF1{
-<<<<<<< HEAD
-  public static void main (String args[]){
-=======
+
 public static void main (String args[]){
->>>>>>> 4ed0a9edb429775789ddb045e0145f53c7ad414b
     int n = Integer.parseInt(args[0]); 
     EF1 fact = new EF1();
     System.out.println(fact.Factorial(n));
@@ -16,24 +11,3 @@ public static void main (String args[]){
       return (n)*Factorial(n-1);
     }
   }
-<<<<<<< HEAD
-}
-=======
-
-	public static void main(String args[]){
-		int n = Integer.parseInt(args[0]);
-		System.out.println(Factorial(n));
-	}
-
-	public static int Factorial(int n){
-		if(){//Escribir condición de salida
-			return 1;
-		}else{//Escribir el retorno para la recursividad
-
-		}
-	}
-}
->>>>>>> 37667cd7fd2d36c5543bc9eac614d8d042ccd9d5
-=======
-}
->>>>>>> 4ed0a9edb429775789ddb045e0145f53c7ad414b
