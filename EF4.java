@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4ed0a9edb429775789ddb045e0145f53c7ad414b
 import java.awt.event.ActionEvent;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -54,6 +57,7 @@ public class EF4 extends JFrame{
             return "<html>Escribe lo numeros que desees sumar y separalos por una coma. Ej: 10,-20,60,...</html>";
         }
     }
+<<<<<<< HEAD
 }
 =======
 import javax.swing.JFrame;
@@ -87,3 +91,6 @@ public class EF4 extends JFrame{
 
 }
 >>>>>>> master
+=======
+}
+>>>>>>> 4ed0a9edb429775789ddb045e0145f53c7ad414b

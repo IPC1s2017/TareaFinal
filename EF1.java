@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 public class EF1{
 <<<<<<< HEAD
   public static void main (String args[]){
+=======
+public static void main (String args[]){
+>>>>>>> 4ed0a9edb429775789ddb045e0145f53c7ad414b
     int n = Integer.parseInt(args[0]); 
     EF1 fact = new EF1();
     System.out.println(fact.Factorial(n));
@@ -12,6 +16,7 @@ public class EF1{
       return (n)*Factorial(n-1);
     }
   }
+<<<<<<< HEAD
 }
 =======
 
@@ -29,3 +34,6 @@ public class EF1{
 	}
 }
 >>>>>>> 37667cd7fd2d36c5543bc9eac614d8d042ccd9d5
+=======
+}
+>>>>>>> 4ed0a9edb429775789ddb045e0145f53c7ad414b
