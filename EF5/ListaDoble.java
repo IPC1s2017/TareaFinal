@@ -3,15 +3,16 @@ public class ListaDoble{
  
   public ListaDoble(int dato){
       primero = new Nodo(dato);
-      /*
-        completar el resto del código
-      */
+   
   }
 
   public void InsertarAlFrente(int dato){
-    /*
-      completar el resto del código
-    */
+  
+   Nodo nuevo= new Nodo(dato);
+   nuevo.siguiente=primero;
+   primero.anterior=nuevo;
+   primero=nuevo;
+  
   }
 
   public void Imprimir(){
