@@ -19,7 +19,7 @@ public static void main(String[] args) throws IOException {
      
     
    
-     muestraArchivo("C:\\Users\\Sergio_RPR\\Documents\\EF5\\Finobacci.txt");
+     muestraArchivo("C:\\Users\\Sergio_RPR\\Documents\\EF5\\TareaFinal\\Finobacci.txt");
 
     }
     public static  void muestraArchivo(String archivo) throws FileNotFoundException, IOException {
@@ -58,7 +58,7 @@ public static void main(String[] args) throws IOException {
           System.out.println("");
          System.out.println(" COLA ");
          cola.Imprimir();
-         
+         System.out.println("");
          System.out.println(" LISTA DOBLE ");
          doble.Imprimir();
          System.out.println("");
